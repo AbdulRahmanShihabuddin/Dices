@@ -24,8 +24,8 @@ button.addEventListener('click',function(){
             dice3.style.backgroundColor="yellow"
             dice2.style.backgroundColor="red"
         } else{
-            dice3.style.backgroundColor="yellow"
-            dice2.style.backgroundColor="yellow"
+            dice3.style.backgroundColor="dodgerblue"
+            dice2.style.backgroundColor="dodgerblue"
         }
     }
     
@@ -39,8 +39,8 @@ button.addEventListener('click',function(){
             dice3.style.backgroundColor="yellow"
             dice1.style.backgroundColor="red"
         } else{
-            dice3.style.backgroundColor="yellow"
-            dice1.style.backgroundColor="yellow"
+            dice3.style.backgroundColor="dodgerblue"
+            dice1.style.backgroundColor="dodgerblue"
         }
     }
     
@@ -55,32 +55,32 @@ button.addEventListener('click',function(){
             dice1.style.backgroundColor="yellow"
             dice2.style.backgroundColor="red"
         } else{
-            dice1.style.backgroundColor="yellow"
-            dice2.style.backgroundColor="yellow"
+            dice1.style.backgroundColor="dodgerblue"
+            dice2.style.backgroundColor="dodgerblue"
         }
     }
     else if ((num1==num2)&&(num1>num3)){
         win.textContent="Player 1 and 2 won!"
-        dice1.style.backgroundColor="green"
-        dice2.style.backgroundColor="green"
+        dice1.style.backgroundColor="dodgerblue"
+        dice2.style.backgroundColor="dodgerblue"
         dice3.style.backgroundColor="yellow"
     }
     else if ((num2==num3)&&(num2>num1)){
         win.textContent="Player 2 and 3 won!"
-        dice2.style.backgroundColor="green"
-        dice3.style.backgroundColor="green"
+        dice2.style.backgroundColor="dodgerblue"
+        dice3.style.backgroundColor="dodgerblue"
         dice1.style.backgroundColor="yellow"
     }
     else if ((num1==num3)&&(num1>num2)){
         win.textContent="Player 1 and 3 won!"
-        dice3.style.backgroundColor="green"
-        dice1.style.backgroundColor="green"
+        dice3.style.backgroundColor="dodgerblue"
+        dice1.style.backgroundColor="dodgerblue"
         dice2.style.backgroundColor="yellow"
     }
     else if ((num1==num2)&&(num2==num3)){
         win.textContent="Three way tie!"
-        dice1.style.backgroundColor="green"
-        dice2.style.backgroundColor="green"
-        dice3.style.backgroundColor="green"
+        dice1.style.backgroundColor="dodgerblue"
+        dice2.style.backgroundColor="dodgerblue"
+        dice3.style.backgroundColor="dodgerblue"
     }
 })
